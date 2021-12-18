@@ -1,0 +1,53 @@
+; GalacticBlue
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%hand%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; Installed files
+
+[Scheme.Cur]
+Alternate_Select.cur
+Select.cur
+Working_In_Backgr.ani
+Busy.ani
+Unavailable.cur
+Help_Select.cur
+Link_Select.cur
+Move.cur
+Handwriting.cur
+Precision_Select_2.cur
+Diagonal_Resize_1.cur
+Diagonal_Resize_2.cur
+Text_Select.cur
+Vertical_Resize.cur
+Horizontal_Resize.cur
+
+[Strings]
+CUR_DIR = "Cursors\GalacticBlue"
+SCHEME_NAME = "GalacticBlue"
+pointer = "Select.cur"
+help = "Help_Select.cur"
+work = "Working_In_Backgr.ani"
+busy = "Busy.ani"
+text = "Text_Select.cur"
+unavailable = "Unavailable.cur"
+vert = "Vertical_Resize.cur"
+horz = "Horizontal_Resize.cur"
+dgn1 = "Diagonal_Resize_1.cur"
+dgn2 = "Diagonal_Resize_2.cur"
+move = "Move.cur"
+link = "Link_Select.cur"
+cross = "Precision_Select_2.cur"
+hand = "Handwriting.cur"
+alternate = "Alternate_Select.cur"
